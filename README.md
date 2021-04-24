@@ -3,6 +3,9 @@
 - การตั้งค่า nginx เบื้องต้น
 - Linux command line
 
+### บทความที่เกี่ยวข้อง
+- [วิธีติดตั้ง PHP หลาย Version ให้ใช้งานกับ NGINX บน Ubuntu 20.04](https://github.com/midnighttime-cha/nginx-multiple-php)
+
 ## สร้างไฟล์ `mywebsite.conf`
 ให้ทำการสร้างไฟล์ในการตั้งค่าขึ้นมา ควรจะสร้างแยกเฉพาะแต่ละเว็บขึ้นมากรณีมีหลายเว็บรวมๆกัน
 ```bash
@@ -49,6 +52,3 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```bash
 sudo systemctl restart nginx
 ```
-
-# บทความที่เกี่ยวข้อง
-- [วิธีติดตั้ง PHP หลาย Version ให้ใช้งานกับ NGINX บน Ubuntu 20.04](https://github.com/midnighttime-cha/nginx-multiple-php)
