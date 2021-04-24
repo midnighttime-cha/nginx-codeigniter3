@@ -41,10 +41,10 @@ server {
 sudo nginx -t
 ```
 ถ้าระบบแสดงข้อความต่อไปนี้แสดงว่าทำการตั้งค่าถูกต้องแล้ว
-`
+```
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
-`
+```
 จากนั้น `restart nginx` ด้วยคำสั่ง
 ```bash
 sudo systemctl restart nginx
