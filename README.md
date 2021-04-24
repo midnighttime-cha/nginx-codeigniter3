@@ -13,7 +13,7 @@ sudo nano /etc/nginx/sites-available/mywebsite.conf
 sudo ln -s /etc/nginx/sites-available/mywebsite.conf /etc/nginx/sites-enabled/
 ```
 ตั้งค่าตามตัวอย่างต่อไปนี้
-`
+```
 # FileName: /etc/nginx/sites-available/mywebsite.conf
 server {
   listen 80;
@@ -35,7 +35,7 @@ server {
     }
   }
 }
-`
+```
 ทำการตรวจความถูกต้องของการตั้งค่า
 ```bash
 sudo nginx -t
