@@ -21,6 +21,7 @@ sudo ln -s /etc/nginx/sites-available/mywebsite.conf /etc/nginx/sites-enabled/
 server {
   listen 80;
   server_name www.mywebsite.com subdomain.mywebsite.com;
+  client_max_body_size 100M;
 
   location / {
     root /var/www/mywebsite;
